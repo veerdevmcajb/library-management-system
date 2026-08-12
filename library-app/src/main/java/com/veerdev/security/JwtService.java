@@ -16,7 +16,7 @@ import javax.crypto.SecretKey;
 public class JwtService {
 
     private static final String SECRET_KEY =
-            "myLibraryManagementSystemSecretKey123456789";
+            "YOUR-SECRET-KEY";
 
     private final Key key =
             Keys.hmacShaKeyFor(
